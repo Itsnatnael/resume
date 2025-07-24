@@ -85,134 +85,61 @@
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
+\documentclass[letterpaper,11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
 \begin{document}
 
-%----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
-    \textbf{\Huge \scshape Jake Ryan} \\ \vspace{1pt}
-    \small 123-456-7890 $|$ \href{mailto:x@x.com}{\underline{jake@su.edu}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
-    \href{https://github.com/...}{\underline{github.com/jake}}
+    {\Huge \textbf{Natnael Tibebe Alemayehu}} \\ \vspace{2pt}
+    natnael.t.alemayehu@gmail.com $|$ +48 729 459 687 $|$ Warsaw, Poland $|$ \href{https://www.linkedin.com/in/natnaeltalemayehu/}{LinkedIn} $|$ meetnatnael.com
 \end{center}
 
+\section*{Work Experience}
 
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Southwestern University}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
-    \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
-  \resumeSubHeadingListEnd
+  extbf{Foundever} \hfill November 2021 -- June 2025 \\
+Senior Technical Support Specialist \hfill Warsaw, Poland \\
+\begin{itemize}
+    \item Delivered administrative and operational support for high-volume client accounts, maintaining accurate records across internal systems aligned with service-level and audit standards.
+    \item Optimized transaction and order processes by analyzing CRM data, enhancing workflow efficiency, and improving resolution times by 15\%
+    \item Provided pricing and billing support to B2B clients, resolving discrepancies, and escalating issues that impacted revenue flow or customer satisfaction.
+    \item Identified repeat client pain points and helped update process documentation, contributing to better pricing clarity and fewer escalations.
+\end{itemize}
 
+  extbf{AKM Furniture} \hfill May 2019 -- July 2021 \\
+Financial Reporting Specialist \hfill Addis Ababa, Ethiopia \\
+\begin{itemize}
+    \item Created performance dashboards with Excel and Power BI for better decision-making and improved settlement and transaction services reporting.
+    \item Processed financial documentation and verified account records as part of monthly reporting and reconciliation cycles.
+    \item Reconciled ERP system data with procurement and sales transactions, identifying pricing inconsistencies and supporting corrective actions across internal teams.
+    \item Collaborated with finance and operations teams to deliver accurate reports, supporting strategic decisions.
+\end{itemize}
 
-%-----------EXPERIENCE-----------
-\section{Experience}
-  \resumeSubHeadingListStart
+\section*{Projects}
 
-    \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
-      \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
-      \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
+  \textbf{Payment Performance Dashboard} \\
+Built a comprehensive Power BI dashboard to analyze transaction data, identify anomalies, and recommend routing optimizations for global payment processing. \\
+\textbf{Business Impact:} Improved acceptance rates by 6\% post-implementation. \\
+\textbf{Technologies \& Tools:} Power BI, Payment APIs, Data Analytics
 
-    \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
-      \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
-    \resumeItemListEnd
+  \textbf{DHL Supply Chain Analysis} \\
+Comprehensive supply chain analytics project focused on optimizing DHL's logistics operations across multiple European distribution centers. \\
+\textbf{Business Impact:} Identified logistics bottlenecks and improved operational reporting clarity. \\
+\textbf{Technologies \& Tools:} Power BI, Data Modeling, Supply Chain Analytics
 
-    \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
-      \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
-      \resumeItemListEnd
+\section*{Education}
 
-  \resumeSubHeadingListEnd
+  extbf{Uniwersytet WSB Merito Gdańsk} \\
+Bachelor of International Business Management Studies \hfill Gdansk, Poland
 
+\section*{Certifications, Skills \& Interests}
+\begin{itemize}
+    \item \textbf{Certifications:} CFI Corporate Finance Foundations Professional Certificate, PMI Certificate in Agile Business Analysis, CFI Financial Analysis and Modeling Professional Certificate, Atlassian Agile Project Management.
+    \item \textbf{Technical Skills:} CRM Platforms: Salesforce, Zendesk, HubSpot; ERP \& Data Tools: SAP, Power BI, Microsoft Excel (PivotTables, VLOOKUP, Data Validation), Transaction Processing \& Booking Verification, GL Proofing \& Monthly Closing Support, Client Account Reconciliation, Regulatory Compliance Support
+    \item \textbf{Skills:} Client-Centric Mindset, Operational Risk Awareness, Cross-functional Communication, Excellent analytical skills, Excellent organizational Skills, Regulatory Reporting, Reconciliations, Operational Enhancements, Issue Escalation \& Resolution
+    \item \textbf{Languages:} Fluent in English (written and spoken)
+\end{itemize}
 
-%-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
-          \resumeItemListStart
-            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
-            \resumeItem{Visualized GitHub data to show collaboration}
-            \resumeItem{Used Celery and Redis for asynchronous tasks}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
-          \resumeItemListStart
-            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
-
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
-    }}
- \end{itemize}
-
-
-%-------------------------------------------
 \end{document}
+...existing code...
